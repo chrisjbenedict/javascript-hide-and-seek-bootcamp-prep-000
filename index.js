@@ -11,4 +11,5 @@ function increaseRankBy() {
   for (let i = 0; i < rankedList.length; i++) {
     return newRankedList = parseInt(rankedList[i] + n)
   }
+  return newRankedList
 }
